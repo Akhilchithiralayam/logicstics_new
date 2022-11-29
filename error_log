@@ -1,0 +1,1 @@
+[15-May-2021 13:26:57 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; User_management has a deprecated constructor in /home/mjnmdfzc/public_html/CGD_Jewel_Secret/application/controllers/User_management.php on line 4

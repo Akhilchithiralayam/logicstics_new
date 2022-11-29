@@ -1,0 +1,112 @@
+
+/*-------------------------------------------------------
+7. Service css
+---------------------------------------------------------*/ 
+
+
+.what-area {
+	position: relative;
+	z-index: 1;
+	&::before {
+		position: absolute;
+		right: 0;
+		top: 0;
+		content: "";
+		height: 100%;
+		width: 95%;
+		background: var(--bg-color);
+		z-index: -1;
+	}
+}
+
+.what-box {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 3rem;
+	.what-icon {
+		margin-bottom: 3rem;
+	}
+	.what-info {
+		h5 {
+			font-size: 2rem;
+			font-weight: 500;
+			margin-bottom: 2rem;
+		}
+		p {
+			line-height: 1.778;
+			margin-bottom: 2.5rem;
+		}
+	}
+}
+
+.what-btn {
+	font-size: 16px;
+	text-decoration: underline;
+	line-height: 2;
+	display: inline-block;
+}
+
+.what-footer {
+	text-align: center;
+	h5 {
+		font-weight: 400;
+		color: #6b6a75;
+		a {
+			color: var(--theme-color);
+			text-decoration: underline;
+		}
+	}
+}
+
+
+
+//Service Single
+
+
+.what-content {
+    display: grid;
+    grid-template-columns: 27rem 1fr;
+    grid-gap: 4rem;
+    box-shadow: 0 0 7px rgba(0, 0, 0,.07);
+	background-color: var(--white-color);
+}
+
+.service-single-text {
+	.su {
+		font-size: 1.6rem;
+		color: var(--theme-color);
+		margin-bottom: 3rem;
+		display: block;
+		line-height: 1
+	}
+	.service-single-title {
+		font-size: 3rem;
+	}
+}
+
+
+.service-option {
+	li {
+		display: flex;
+		gap: 3rem;
+		align-items: baseline;
+		margin-bottom: 3rem;
+		&:last-child {
+			margin-bottom: 0;
+		}
+		.service-txt {
+			h5 {
+				font-weight: 500;
+				margin-bottom: 2rem;
+			}
+			p {
+				margin-bottom: 2rem;
+			}
+		}
+	}
+}
+
+
+
+

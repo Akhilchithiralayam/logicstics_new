@@ -1,0 +1,75 @@
+/*-------------------------------------------------------
+14. Feedback  css 
+---------------------------------------------------------*/
+
+.feed-box {
+	padding: 3rem;
+	border: 1px solid #eee;
+	.feed-desc {
+		i {
+			font-size: 5rem;
+			display: block;
+			margin-bottom: 3rem;
+			color: var(--theme-color);
+		}
+		p {
+			margin-bottom: 3rem;
+		}
+		.review-rating {
+			margin-bottom: 1rem;
+			i {
+				font-size: 2.2rem;
+			}
+		}
+	}
+	.feed-bio {
+		display: flex;
+		align-items: center;
+		img {
+			border-radius: 50%;
+			height: 70px;
+			width: 70px;
+			margin-right: 2rem;
+		}
+		h5 {
+			text-transform: capitalize;
+			margin-bottom: 10px;
+			font-weight: 500;
+			line-height: 1;
+		}
+		span {
+			font-size: 1.5rem;
+			text-transform: capitalize;
+			line-height: 1;
+		}
+	}
+}
+.feed-box .feed-desc p,
+.feed-box .feed-bio h5,
+.feed-box .feed-bio span{
+	color: var(--heading-color);
+}
+
+.feed-wrapper.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 5px;
+    margin: 5px 7px;
+    background: var(--theme-color);
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 5px;
+}
+
+.feed-wrapper.owl-theme .owl-dots .owl-dot.active span,
+.feed-wrapper.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--theme-color);
+	width: 30px;
+}
+
+.feed-wrapper.owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 30px;
+}
+
+
+

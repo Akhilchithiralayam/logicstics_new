@@ -1,0 +1,74 @@
+
+
+/*-------------------------------------------------------
+16. Subscribe css
+---------------------------------------------------------*/
+
+.contact-page-info.grid-2 {
+	grid-gap: 13rem;
+}
+
+.contact-left{
+	h2 {
+		line-height: 5.5rem;
+	}
+}
+
+.contact-list {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	li {
+		h5 {
+			line-height: 1;
+			margin-bottom: 1rem;
+		}
+	}
+}
+
+.form-control.input-style-2 {
+	font-size: 1.6rem;
+    color: var(--body-color);
+	outline: none;
+}
+
+/*
+<div class="uploadbox upload-btn">
+	<input type="hidden" name="MAX_FILE_SIZE" value="2102178">            
+	<label for="file-upload" class="btn">Upload</label>
+	<input type="file" id="file-upload" name="upfile1" size="27">
+	<span>No file chosen</span>
+</div>
+
+
+.formlayout .uploadbox {
+	float: none;
+	width: auto;
+	position: relative;
+	/* overflow: hidden; 
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.formlayout .uploadbox input[type="file"] {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	height: 47px;
+	width: 159px;
+	cursor: pointer;
+}
+
+.formlayout .uploadbox span {
+	font-size: 14px;
+	line-height: 47px;
+	color: #858689;
+	font-family: 'Roboto', sans-serif;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+*/
+

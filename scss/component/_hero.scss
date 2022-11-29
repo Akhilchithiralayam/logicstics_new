@@ -1,0 +1,81 @@
+
+/*-------------------------------------------------------
+4. Hero css 
+---------------------------------------------------------*/
+
+ 
+
+.hero-single {
+    padding-top: 13vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	background-size: cover;
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	.hero-shape {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		z-index: -1;
+		img {
+			width: 100%;
+			object-fit: cover;
+		}
+	}
+}
+
+
+
+/*Hero Content*/
+
+.top-title {
+	font-size: 2rem;
+	line-height: 3.542;
+	color: var(--theme-color);
+}
+
+.hero-content  {
+	h2 {
+		font-size: 4rem;
+		line-height: 1.5;
+		font-weight: 600;
+		text-transform: capitalize;
+		margin-bottom: 3.5rem;
+	}
+}
+
+/*Hro Btn Css*/
+
+.hro-btn {
+    display: flex;
+    align-items: center;
+	justify-content: center;
+	.theme-btn {
+		margin-right: 2.5rem;
+	}
+}
+
+.how-we-work {
+    display: flex;
+    align-items: center;
+	i {
+		height: 5.8rem;
+		width: 5.8rem;
+		line-height: 5.8rem;
+		border: 1px solid var(--theme-color);
+		text-align: center;
+		color: var(--theme-color);
+		font-size: 2.4rem;
+		-webkit-border-radius: 50%;
+		border-radius: 50%;
+		display: inline-block;
+		margin-right: 8px;
+	}
+	.how-txt {
+		font-size: 2rem;
+		color: var(--heading-color);
+		font-weight: 500;
+		line-height: 1;
+	}
+}
